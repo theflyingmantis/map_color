@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Map Colouring</title>
+</head>
+<body bgcolor="orange">
+<center>
+<form action="/" method="post">
+<br><br>
+	<h1>No. Of Points: <input type="number" name="number" required><br><br>
+	No. Of colours: <input type="number" name="color" required><br><br>
+	Max steps (For local search)<input type="num" name="local"><br><br>
+	Density Factor (out of 10): <input type="number" name="density" required><br><br><br>
+
+  <input type="radio" name="algo" value="simple"> Simple Backtrack<br>
+  <input type="radio" name="algo" value="forward"> Backtrack with Forward Checking<br>
+  <input type="radio" name="algo" value="mac"> Backtrack with MAC <br>
+  <input type="radio" name="algo" value="local"> Local Search <br></h1>
+  <input type="submit" value="Submit">
+</form>
+</center>
+</body>
+</html>
